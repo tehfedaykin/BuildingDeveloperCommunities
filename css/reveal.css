@@ -1880,6 +1880,10 @@ body {
 	visibility: hidden;
 }
 
+.culture{
+
+}
+
 .maslow{
 	margin: 0px auto;
 	display: block;
@@ -1891,7 +1895,49 @@ body {
 .maslow img{
 	position: absolute;
 	top: 0px;
-	left: 0px;
+	left: 0%;
 }
 
 
+.maslow ul{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	text-align: left;
+}
+
+#examples blockquote{
+	text-align: left;
+	font-weight: normal;
+	font-style: normal;
+	padding: 20px;
+}
+
+#usergroups{
+	overflow: auto;
+}
+
+#usergroups ul{
+	float:left;
+	width: 40%;
+	margin-right: 5%;
+}
+
+#usergroups ul li{ 
+	margin: .5em 0;
+}
+
+.bg h2{
+	padding: 20px 30px;
+	margin: 10px auto;
+	display: inline-block;
+	background-color:rgba(0,0,0,0.7);
+	clear:both;
+}
+
+.bg p{
+	padding: 20px 30px;
+	margin: 10px auto;
+	clear:both;
+	background-color:rgba(0,0,0,0.7);
+}
