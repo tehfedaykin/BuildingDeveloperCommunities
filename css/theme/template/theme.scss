@@ -167,4 +167,23 @@ body {
   color: $linkColor;
 }
 
+.twitter-overlay {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	display: block;
+	width: 50%;
+	span {
+		font-family: 'Source Sans Pro', Helvetica, sans-serif;;
+		color: #D3D3D3;
+		display: inline-block;
+		margin-right: 2.5%;
+		float: left;
+	}
+}
 
+.reveal section img.plain {
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
